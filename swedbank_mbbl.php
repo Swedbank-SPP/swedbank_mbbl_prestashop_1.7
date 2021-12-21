@@ -245,7 +245,12 @@ class Swedbank_mbbl extends PaymentModule
 
 ';
                     $option = new PaymentOption();
-                    $option->setCallToActionText('Banklink '.(count($pList) > 1 ? '('.$key.')' : ''))
+                    if($lnv == 'et'){
+                        $text = 'Pangalink';
+                    } else{
+                        $text = 'Bank link';
+                    }
+                    $option->setCallToActionText($text.' '.(count($pList) > 1 ? '('.$key.')' : ''))
                         ->setAction($this->context->link->getModuleLink($this->name, 'validation', array($furl, 'lt', 0), true))
                         ->setAdditionalInformation($desk);
 
