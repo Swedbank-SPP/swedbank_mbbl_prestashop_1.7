@@ -8,3 +8,6 @@ Go in the back office of your shop and follow these steps:
 - select the ZIP file you downloaded and validate the dialogue box
 - click on "Upload this module"
 - once uploaded, you could have to search the module among the others and click on the install button
+Email for help in Lithuania lvservisas@swedbank.lt
+Email for help in Latvia cashmanagement@swedbank.lv
+Email for help in Estonia pangalink@swedbank.ee
